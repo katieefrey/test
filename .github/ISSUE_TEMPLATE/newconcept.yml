@@ -29,11 +29,18 @@ body:
       placeholder: This helps us verify the concept recommendation.
     validations:
       required: false
+  - type: textarea
+    id: additional-comments
+    attributes:
+      label: Comments/Feedback
+      description: Please include any other thoughts or relevant details here. (optional)
+    validations:
+      required: false
   - type: checkboxes
     id: terms
     attributes:
       label: Code of Conduct
-      description: By submitting this issue, you agree to follow our [Code of Conduct](https://example.com)
+      description: By submitting this issue, you agree to follow our [Code of Conduct](https://github.com/astrothesaurus/UAT/blob/master/CODE_OF_CONDUCT.md)
       options:
         - label: I agree to follow this project's Code of Conduct
           required: true
