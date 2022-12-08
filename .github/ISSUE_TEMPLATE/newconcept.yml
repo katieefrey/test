@@ -14,13 +14,12 @@ body:
     attributes:
       label: Describe the Concept
       description: Does this new concept relate to any other terms already found in the UAT?  Can you describe that relationship? What does the new concept mean?  Is it more general or specific?
-      placeholder: ex. email@example.com
     validations:
-      required: false
+      required: true
   - type: textarea
-    id: what-happened
+    id: concept-location
     attributes:
-      label: What happened?
+      label: Concept Location
       description: Also tell us, what did you expect to happen?
       placeholder: Tell us what you see!
       value: "A bug happened!"
