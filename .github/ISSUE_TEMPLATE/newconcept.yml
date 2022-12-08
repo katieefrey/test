@@ -3,7 +3,7 @@ description: File a bug report
 title: "[New Concept]: "
 labels: ["add concept"]
 assignees:
-  - octocat
+  - katieefrey
 body:
   - type: markdown
     attributes:
