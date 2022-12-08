@@ -21,14 +21,14 @@ body:
     attributes:
       label: Concept Location
       description: Describe where this concept fits within the existing hierarchy. A concept can exist in multiple locations within the UAT.
-    validations:
-      required: true
   - type: textarea
     id: supporting-info
     attributes:
       label: Supporting Information
       description: Please include 1 to 3 bibcodes or article references that support the use of this concept in literature. (optional)
       placeholder: This helps us verify the concept recommendation.
+    validations:
+      required: false
   - type: checkboxes
     id: terms
     attributes:
