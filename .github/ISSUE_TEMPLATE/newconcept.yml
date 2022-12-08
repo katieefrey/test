@@ -8,11 +8,11 @@ body:
   - type: markdown
     attributes:
       value: |
-        Thanks for taking the time to fill out this bug report!
+        Thanks for taking the time to recommend a new concept!
   - type: input
-    id: contact
+    id: concept-description
     attributes:
-      label: Contact Details
+      label: Describe the Concept
       description: How can we get in touch with you if we need more info?
       placeholder: ex. email@example.com
     validations:
